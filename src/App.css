@@ -1,3 +1,83 @@
+@import "~antd/dist/antd.css";
+
+/* Poom start*/
+/* Poom start*/
+body {
+  background-image: linear-gradient(to right, #6eda78, #ffa200);
+}
+.square,
+.circle,
+.ellipse,
+.trapezoid,
+.rectangle,
+.rhombus {
+  background: rgb(69, 59, 71);
+  margin: auto;
+  width: 170px;
+  height: 80px;
+  /* border: 1px solid red; */
+}
+.square {
+  width: 50%;
+}
+.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.ellipse {
+  border-radius: 50%;
+}
+.trapezoid {
+  border-bottom: 75px solid rgb(69, 59, 71);
+  border-left: 25px solid white;
+  border-right: 25px solid white;
+  height: 0;
+  width: 150px;
+}
+.rectangle {
+}
+.rhombus {
+  transform: skewX(7deg);
+}
+.white-box {
+  background-color: white;
+  display: inline-block;
+  margin: 0.5%;
+  border-radius: 5%;
+
+  width: 200px;
+  height: 100px;
+  padding: 10px 0;
+}
+.arrow-btn {
+  width: 0;
+  height: 0;
+}
+.arrow-left {
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 100px solid rgb(69, 59, 71);
+}
+.arrow-right {
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 100px solid rgb(69, 59, 71);
+}
+.arrow-up {
+  /* border-top: 50px solid transparent; */
+  border-bottom: 100px solid rgb(69, 59, 71);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+.arrow-down {
+  /* border-top: 50px solid transparent; */
+  border-top: 100px solid rgb(69, 59, 71);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+/* Poom end */
+/* Poom end */
 .App {
   text-align: center;
 }
