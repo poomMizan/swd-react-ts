@@ -1,83 +1,201 @@
 @import "~antd/dist/antd.css";
-
-/* Poom start*/
-/* Poom start*/
+/* Poom custom css start*/
+/* Poom custom css start*/
+/* Poom custom css start*/
+/* Poom custom css start*/
 body {
   background-image: linear-gradient(to right, #6eda78, #ffa200);
+  overflow: hidden;
 }
-.square,
-.circle,
-.ellipse,
-.trapezoid,
-.rectangle,
-.rhombus {
-  background: rgb(69, 59, 71);
+.m025 {
+  margin: 0.25%;
+}
+.space {
+  width: 100%;
+  justify-content: right;
+}
+.grab {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.inside {
+  background: rgb(98, 95, 99);
   margin: auto;
-  width: 170px;
-  height: 80px;
-  /* border: 1px solid red; */
+  width: 190px;
+  height: 105px;
+}
+.inside:hover {
+  background-color: white;
 }
 .square {
   width: 50%;
 }
 .circle {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
 .ellipse {
   border-radius: 50%;
 }
 .trapezoid {
-  border-bottom: 75px solid rgb(69, 59, 71);
-  border-left: 25px solid white;
-  border-right: 25px solid white;
+  border-bottom: 100px solid rgb(98, 95, 99);
+  border-left: 35px solid white;
+  border-right: 35px solid white;
   height: 0;
-  width: 150px;
+  width: 200px;
 }
-.rectangle {
+.trapezoid:hover {
+  border-bottom: 100px solid white;
+  border-left: 35px solid white;
+  border-right: 35px solid white;
 }
 .rhombus {
-  transform: skewX(7deg);
+  transform: skewX(12deg);
 }
-.white-box {
+.boxes-title {
+  margin-left: 20px;
+}
+.big-box-menu {
+  margin: auto;
+  width: 60%;
+  padding: 200px 0;
+}
+.white-box,
+.white-box-menu,
+.big-white-box {
   background-color: white;
   display: inline-block;
   margin: 0.5%;
-  border-radius: 5%;
-
-  width: 200px;
-  height: 100px;
+  /* border-radius: 5%; */
+  width: 260px;
+  height: 130px;
   padding: 10px 0;
+}
+.white-box {
+  border-radius: 10px;
+}
+.big-white-box {
+  width: 520px;
+  height: 130px;
+  position: relative;
+  border-radius: 8px;
+}
+.white-box:hover,
+.big-white-box:hover {
+  background-color: orange;
+}
+.white-box:active,
+.big-white-box:active {
+  background-color: rgb(71, 215, 71);
+}
+.white-box:hover .trapezoid {
+  border-left: 35px solid orange;
+  border-right: 35px solid orange;
+}
+.white-box:active .trapezoid {
+  border-left: 35px solid rgb(71, 215, 71);
+  border-right: 35px solid rgb(71, 215, 71);
+}
+.hidden {
+  visibility: hidden;
+  /* for test */
+  /* background-color: red; */
 }
 .arrow-btn {
   width: 0;
   height: 0;
 }
+.arrow-left,
+.arrow-right,
+.arrow-up,
+.arrow-down {
+  margin: auto;
+}
+.mr-0 {
+  margin-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.ml-0 {
+  margin-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
 .arrow-left {
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
-  border-right: 100px solid rgb(69, 59, 71);
+  border-right: 100px solid rgb(98, 95, 99);
 }
 .arrow-right {
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
-  border-left: 100px solid rgb(69, 59, 71);
+  border-left: 100px solid rgb(98, 95, 99);
 }
 .arrow-up {
   /* border-top: 50px solid transparent; */
-  border-bottom: 100px solid rgb(69, 59, 71);
+  border-bottom: 100px solid rgb(98, 95, 99);
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
 }
 .arrow-down {
   /* border-top: 50px solid transparent; */
-  border-top: 100px solid rgb(69, 59, 71);
+  border-top: 100px solid rgb(98, 95, 99);
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
 }
-/* Poom end */
-/* Poom end */
+.arrow-box {
+  top: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.arrow-box-left {
+  left: 0;
+}
+.arrow-box-right {
+  right: 0;
+}
+.relative {
+  position: relative;
+}
+.pos-absolute {
+  position: absolute;
+}
+.move-title {
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: rgb(71, 215, 71);
+  color: white;
+  bottom: -7%;
+}
+.move-shape {
+  left: 30%;
+}
+.move-position {
+  left: 40%;
+}
+.link:link {
+  text-decoration: none;
+}
+.link:visited {
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.link:active {
+  text-decoration: underline;
+}
+/* @media screen and (max-width: 600px) {
+  .inside {
+    width: 380px;
+    height: 210px;
+  }
+} */
+/* Poom custom css end */
+/* Poom custom css end */
+/* Poom custom css end */
+/* Poom custom css end */
 .App {
   text-align: center;
 }
